@@ -62,7 +62,46 @@ left: 0 - расстояние от левого края окна = 0
 
 ## Ссылка на песочницу [«Оформление статьи из блога Нетологии»](https://codepen.io/Byzgaev-I/full/jEWQppR) 
 
+Нужно изменить селекторы .page h1 и .page так, чтобы они не применялись к элементам на странице. 
+Тогда заработают базовые правила.
+
 ![image](https://github.com/Byzgaev-I/flex-elements/blob/main/А%20-1111.png)
+
+```css
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+.content {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+a {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+p {
+	line-height: 24px;
+}
+
+.page h2 {
+	font-size: 12px;
+}
+
+.page span {
+	text-decoration: underline;
+	color: #f00000;
+}
+```
+
 
 
 
