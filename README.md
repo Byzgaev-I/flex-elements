@@ -10,7 +10,7 @@
 
 ## Задание 1: Фиксированное меню
 
-## Ссылка на песочницу [«Фиксированное меню»](https://codepen.io/Byzgaev-I/pen/XJXyBJw?editors=0100)
+### Ссылка на песочницу [«Фиксированное меню»](https://codepen.io/Byzgaev-I/pen/XJXyBJw?editors=0100)
 
 ```css
 .menu {
