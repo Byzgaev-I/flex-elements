@@ -62,7 +62,7 @@ left: 0 - расстояние от левого края окна = 0
 
 ## Ссылка на песочницу [«Оформление статьи из блога Нетологии»](https://codepen.io/Byzgaev-I/full/jEWQppR) 
 
-
+![image](https://github.com/Byzgaev-I/flex-elements/blob/main/А%20-1111.png)
 
 
 
