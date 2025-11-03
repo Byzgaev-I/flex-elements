@@ -67,40 +67,7 @@ left: 0 - расстояние от левого края окна = 0
 
 ![image](https://github.com/Byzgaev-I/flex-elements/blob/main/А%20-1111.png)
 
-```css
-body {
-	margin: 0;
-	font-family: arial, sans-serif;
-}
-
-.content {
-	width: 760px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-h1 {
-	font-size: 32px;
-}
-
-a {
-	color: #2980b9;
-	text-decoration: none;
-}
-
-p {
-	line-height: 24px;
-}
-
-.page h2 {
-	font-size: 12px;
-}
-
-.page span {
-	text-decoration: underline;
-	color: #f00000;
-}
-```
+с
 Что поменял:
 .page h1 → .page h2 
 .page a → .page span 
@@ -108,9 +75,45 @@ p {
 Таким образом, элементы h1 и a больше ничем не перебиваются, и к ним применяются нужные стили!
 
 
+## Задание 3: «Верстка текста по PSD-макету»
 
+### Нужно доработать вёрстку с учётом PSD-макета.
 
+Процесс реализации
+Скачайте архив с исходными файлами задания.
+Установите шрифт Lobster-Regular.ttf в вашу операционную систему.
+Измерьте в макете и установите размер текста для элемента с классом container.
+Измерьте в макете и установите цвет текста для элемента с классом container.
+Измерьте в макете и установите междустрочное расстояние для элемента p.
+Подключите шрифт lobster, используя директиву font-face. В качестве пути (src) используйте ссылку на файл, в настройках укажите font-family: lobster, font-weight: 400 и font-style: normal.
+Установите font-family: lobster для элемента с классом container.
+Убедитесь, что результат соответствует описанию. Для этого перейдите в режим FullPage (скриншот). Если режим FullPage View выдал ошибку, вам нужно подтвердить свою учётную запись в CodePen, пройдя по ссылке из письма от CodePen, тогда всё должно заработать корректно.
+Не нужно вносить другие правки в CSS или писать дополнительные правила, кроме тех, что предусмотрены заданием.
 
+Я пользовался фотопия с https://www.photopea.com
+
+## Ссылка на песочницу [«Верстка текста по PSD-макету»](https://codepen.io/Byzgaev-I/pen/NPxELgK?editors=0100) 
+
+### Объяснение кода: 
+
+```css
+@font-face {
+  font-family: lobster;
+  src: url('fonts/Lobster-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  font-family: lobster, cursive;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.5;
+}
+```
 
 
 
